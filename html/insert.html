@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insert Student</title>
+</head>
+<body>
+	<h2>Insert Studnet</h2>
+	<form action="../cgi-bin/insert.py" method="get">
+		<input type="text" name="rollno" placeholder="Enter RollNumber" class="form-control"><br>
+		<input type="text" name="name" placeholder="Enter Name" class="form-control"><br>
+		<select name="branch" class="form-control">
+			<option>CSE</option>
+			<option>IT</option>
+			<option>ECE</option>
+			<option>MECH</option>
+			<option>EEE</option>
+			<option>CIVIL</option>
+		</select><br>
+		<input type="number" name="mobile" minlength="10" maxlength="10" placeholder="Enter Mobile" class="form-control"><br>
+		<input type="submit" class="btn btn-success btn-lg" value="Insert">
+	</form>
+</body>
+</html>
